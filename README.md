@@ -8,4 +8,4 @@ Optical character recognition or optical character reader is the electronic or m
 
 To train our network to recognize these sets of characters, we utilized the MNIST digits dataset as well as the NIST Special Database 19 (for the A-Z characters).
 
-
+### Installation
