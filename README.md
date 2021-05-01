@@ -41,6 +41,6 @@ tensorboard --logdir=log
 Track training progress in Tensorboard and go to http://localhost:6006/:
 
 <p>
-    <img width="100%" src="IMAGES/tensorflow_1.jpeg" style="max-width:100%;"></a>
+    <img width="100%" src="Displayimages/tensorflow_1.jpeg" style="max-width:100%;"></a>
 </p>
 
