@@ -39,3 +39,8 @@ python train.py
 tensorboard --logdir=log
 ```
 Track training progress in Tensorboard and go to http://localhost:6006/:
+
+<p align="center">
+    <img width="100%" src="IMAGES/tensorflow_1.png" style="max-width:100%;"></a>
+</p>
+
