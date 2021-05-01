@@ -26,3 +26,16 @@ wget -P model_data https://github.com/AlexeyAB/darknet/releases/download/darknet
 # yolov4-tiny
 wget -P model_data https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
 ```
+## Quick training for custom mnist dataset
+mnist folder contains mnist images, create training data:
+```
+python mnist/make_data.py
+```
+`./yolov3/configs.py` file is already configured for mnist training.
+
+Now, you can train it and then evaluate your model
+```
+python train.py
+tensorboard --logdir=log
+```
+Track training progress in Tensorboard and go to http://localhost:6006/:
