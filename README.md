@@ -37,6 +37,43 @@ The requirements.txt file will include all the needed libraries for the project.
 
 ![](Displayimages/Requirements.jpeg)
 
+Open the terminal and type in 
+```
+mnist/make_data.py
+```
+This will create all training data needed for the project and it converts the data.
+
+To train the model use 
+```
+python train.py
+```
+Use taining on GPU so that is fast
+
+A little about the dataste used for taining:-
+The mnist folder has the subfolder named mnist , which contains the zip files of mnist training dataset i.e. test and train folders, which is extracted to the mnist_test and mnist_train folders.
+The noise_image folder contains the background images (i.e. pictures of the documents) for the training dataset which we have been made by us.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Now, you can train it and then evaluate your model
 ```
 python train.py
@@ -64,9 +101,4 @@ Track training progress in Tensorboard and go to http://localhost:6006/:
     <img width="50%" src="Displayimages/Tensorflow_5.jpeg" style="max-width:100%;"></a>
 </p>
 
-The mnist folder has the subfolder named mnist , which contains the zip files of mnist training dataset i.e. test and train folders, which is extracted to the mnist_test and mnist_train folders.
-The noise_image folder contains the background images (i.e. pictures of the documents) for the training dataset which we have been made by us.
 
-The make_data.py file has 
-
-The model
