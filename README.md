@@ -11,6 +11,7 @@ To train our network to recognize these sets of characters, we utilized the MNIS
 ### Installation
 First, clone or download this GitHub repository. Install requirements and download pretrained weights:
 
+```
 pip install -r ./requirements.txt
 
 # yolov3
@@ -24,3 +25,4 @@ wget -P model_data https://github.com/AlexeyAB/darknet/releases/download/darknet
 
 # yolov4-tiny
 wget -P model_data https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
+```
