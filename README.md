@@ -68,3 +68,5 @@ The mnist folder has the subfolder named mnist , which contains the zip files of
 The noise_image folder contains the background images (i.e. pictures of the documents) for the training dataset which we have been made by us.
 
 The make_data.py file has 
+
+The model
