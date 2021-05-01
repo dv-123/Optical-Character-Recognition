@@ -66,3 +66,5 @@ Track training progress in Tensorboard and go to http://localhost:6006/:
 
 The mnist folder has the subfolder named mnist , which contains the zip files of mnist training dataset i.e. test and train folders, which is extracted to the mnist_test and mnist_train folders.
 The noise_image folder contains the background images (i.e. pictures of the documents) for the training dataset which we have been made by us.
+
+The make_data.py file has 
