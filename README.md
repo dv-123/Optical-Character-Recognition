@@ -33,6 +33,9 @@ python mnist/make_data.py
 ```
 `./yolov3/configs.py` file is already configured for mnist training.
 
+The requirements.txt file will include all the needed libraries for the project.
+![](Displayimages/Requirements.jpeg)
+
 Now, you can train it and then evaluate your model
 ```
 python train.py
