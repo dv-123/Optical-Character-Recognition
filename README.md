@@ -59,3 +59,4 @@ Track training progress in Tensorboard and go to http://localhost:6006/:
 <p>
     <img width="50%" src="Displayimages/Tensorflow_5.jpeg" style="max-width:100%;"></a>
 </p>
+
