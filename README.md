@@ -134,10 +134,6 @@ This metric is commonly used in the domains of Information Retrieval and Object 
 
 
 
-
-
-
-
 Now, you can train it and then evaluate your model
 ```
 python train.py
@@ -166,3 +162,14 @@ Track training progress in Tensorboard and go to http://localhost:6006/:
 </p>
 
 
+
+The handwritten digits from a jpeg file are recognised as follows 
+
+<p>
+    <img width="100%" src="Displayimages/output_1_document.jpeg" style="max-width:100%;"></a>
+</p>
+
+
+<p>
+    <img width="100%" src="output_2_document.jpeg" style="max-width:100%;"></a>
+</p>
