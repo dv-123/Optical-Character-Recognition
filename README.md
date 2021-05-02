@@ -115,7 +115,7 @@ TEST_IOU_THRESHOLD          = 0.45
 The train.py file will train the model and optimize the model. The utils.py does image processing and draw bounding boxes around the handwritten digits.
 
 
-evalute_mAP.py
+Now let's have a look at the evalute_mAP.py file.
 
 Each model is judged by its performance over a dataset, usually called the “validation/test” dataset. This performance is measured using various statistics — accuracy, precision, recall etc.
 The most common metric of choice used for Object Detection problems — The Mean Average Precision aka, the mAP.
@@ -124,13 +124,13 @@ Handwritten digit recongnizer models are usually trained on a fixed set of class
 Also, the location of the object is generally in the form of a bounding rectangle.
 So, this involves both localisation of the object in the image and classifying that object.
 
-![](Displayimages/loacalisation.png)
+![](Displayimages/localisation.png)
 
 
+The average of the multi-category APs, and the average of the APs obtained under each category of the team is averaged. The range of mAP is[0,1]The larger the value, the better.
 
 
-
-![](Displayimages/loacalisation_1.png)
+![](Displayimages/localisation_1.png)
 
 This metric is commonly used in the domains of Information Retrieval and Object Detection. The mAP for object detection is the average of the AP calculated for all the classes. It is also important to note that for some papers, they use AP and mAP interchangeably
 
