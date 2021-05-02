@@ -175,7 +175,6 @@ The handwritten digits from a jpeg file are recognised as follows
 
 
 
-
 <p>
-    <img width="100%" src="output_2_document.jpeg" style="max-width:100%;"></a>
+    <img width="100%" src="Displayimages/output_2_document.jpeg" style="max-width:100%;"></a>
 </p>
