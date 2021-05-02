@@ -167,7 +167,7 @@ Track training progress in Tensorboard and go to http://localhost:6006/:
 
 
 
-The handwritten digits from a jpeg file are recognised as follows 
+#### The handwritten digits from a jpeg file are recognised as follows 
 
 <p>
     <img width="100%" src="Displayimages/output_1_document.jpeg" style="max-width:100%;"></a>
