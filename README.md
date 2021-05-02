@@ -126,6 +126,10 @@ So, this involves both localisation of the object in the image and classifying t
 
 ![](Displayimages/loacalisation.png)
 
+
+
+
+
 ![](Displayimages/loacalisation_1.png)
 
 This metric is commonly used in the domains of Information Retrieval and Object Detection. The mAP for object detection is the average of the AP calculated for all the classes. It is also important to note that for some papers, they use AP and mAP interchangeably
@@ -168,6 +172,8 @@ The handwritten digits from a jpeg file are recognised as follows
 <p>
     <img width="100%" src="Displayimages/output_1_document.jpeg" style="max-width:100%;"></a>
 </p>
+
+
 
 
 <p>
