@@ -124,16 +124,13 @@ Handwritten digit recongnizer models are usually trained on a fixed set of class
 Also, the location of the object is generally in the form of a bounding rectangle.
 So, this involves both localisation of the object in the image and classifying that object.
 
+![](Displayimages/loacalisation.png)
 
-This metric is commonly used in the domains of Information Retrieval and Object Detection. 
+![](Displayimages/loacalisation_1.png)
 
+This metric is commonly used in the domains of Information Retrieval and Object Detection. The mAP for object detection is the average of the AP calculated for all the classes. It is also important to note that for some papers, they use AP and mAP interchangeably
 
-
-
-
-
-
-
+![](Displayimages/cmd_prompt.jpeg)
 
 
 
